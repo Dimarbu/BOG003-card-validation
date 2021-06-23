@@ -1,20 +1,44 @@
-#Enter {    
+.Enter {    
     font-family: Helvetica;
     font-size: 20px;
     font-weight: bold;
     font-style: italic;
     color: #ffffff;
-    background-color: #000000;
-    border-style: solid;
-    border-width: 1cm;
-    border-color: #000000;
+    height: 170px;
+    padding: 30px;
+    border: 5px solid black;
+    background: #000000;
     }
-#products{
-    width: 1000px;
-    height: 200px;
-    margin: auto;
-    margin-top: 50px;
+.subtitle {
+    text-align: right; 
 }
-img {
-    margin: 150px;
+.product{
+    font-family: Helvetica;
+    font-size: 15px;
+    width: 50%;
+    height: 1000px;
+    padding-top: 30px;
+    float: left;
+    text-align: center;
+    }
+.feature{
+    width: 50%;
+    height: 40px;
+    padding: 1px 1px 1px 3px;
+    text-align: left;
+    background: #C4C4C4;
+    margin: auto;  
+}  
+.feature2{
+   width: 50%;
+   height: 40px;
+   padding-left: 15px;
+   background: #ffffff;
+   text-align: left;
+   margin: auto;
 }
+
+.price{
+    color: red
+}
+
