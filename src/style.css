@@ -1,4 +1,4 @@
-#Encabezado {    
+#Enter {    
     font-family: Helvetica;
     font-size: 20px;
     font-weight: bold;
@@ -9,3 +9,12 @@
     border-width: 1cm;
     border-color: #000000;
     }
+#products{
+    width: 1000px;
+    height: 200px;
+    margin: auto;
+    margin-top: 50px;
+}
+img {
+    margin: 150px;
+}
