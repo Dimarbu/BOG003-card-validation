@@ -1,44 +1,74 @@
-.Enter {    
-    font-family: Helvetica;
-    font-size: 20px;
-    font-weight: bold;
-    font-style: italic;
-    color: #ffffff;
-    height: 170px;
-    padding: 30px;
-    border: 5px solid black;
-    background: #000000;
-    }
+.Enter {
+  font-family: Helvetica;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  color: #ffffff;
+  height: 170px;
+  padding: 30px;
+  border: 5px solid black;
+  background: #000000;
+}
+
 .subtitle {
-    text-align: right; 
-}
-.product{
-    font-family: Helvetica;
-    font-size: 15px;
-    width: 50%;
-    height: 1000px;
-    padding-top: 30px;
-    float: left;
-    text-align: center;
-    }
-.feature{
-    width: 50%;
-    height: 40px;
-    padding: 1px 1px 1px 3px;
-    text-align: left;
-    background: #C4C4C4;
-    margin: auto;  
-}  
-.feature2{
-   width: 50%;
-   height: 40px;
-   padding-left: 15px;
-   background: #ffffff;
-   text-align: left;
-   margin: auto;
+  text-align: right;
 }
 
-.price{
-    color: red
+.product {
+  font-family: Helvetica;
+  font-size: 15px;
+  width: 50%;
+  height: 1000px;
+  padding-top: 30px;
+  float: left;
+  text-align: center;
 }
 
+.feature {
+  width: 50%;
+  height: 40px;
+  padding: 1px 1px 1px 10px;
+  text-align: left;
+  background: #C4C4C4;
+  margin: auto;
+}
+
+.feature2 {
+  width: 50%;
+  height: 40px;
+  padding: 1px 1px 1px 10px;
+  background: #ffffff;
+  text-align: left;
+  margin: auto;
+}
+
+.price {
+  color: red;
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 10px;
+  padding-left: 240px;
+
+}
+
+.line {
+  color: black;
+  size: 15px;
+  width: 250px;
+  border-width: 2px;
+  margin-left: 220px;
+}
+
+.btn {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 5px 5px 5px 5px;
+  color: #ffffff;
+  background-color: #000000;
+  border-color: #A4A4A4;
+  border-width: 3px;
+  border-style: solid;
+  padding: 5px;
+  margin-left: 230px;
+}
