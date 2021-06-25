@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 .Enter {
   font-family: Helvetica;
   font-size: 20px;
@@ -47,16 +50,16 @@
   font-weight: bold;
   font-size: 25px;
   margin-top: 10px;
-  padding-left: 240px;
+  padding-left: 225px;
 
 }
 
 .line {
   color: black;
   size: 15px;
-  width: 250px;
+  width: 50%;
   border-width: 2px;
-  margin-left: 220px;
+  margin-left: 160px;
 }
 
 .btn {
@@ -70,7 +73,7 @@
   border-width: 3px;
   border-style: solid;
   padding: 5px;
-  margin-left: 230px;
+  margin-left: 220px;
 }
 .return {
   padding: 10px;
@@ -90,10 +93,48 @@
   width: 50%;
   padding-left: 60px;
   font-size: 20px;
-
 }
-.databox {
+.dataBox {
   width: 90%;
   height: 30px;
   border: white;
 }
+.bvalidate{
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 15px 5px 5px 5px;
+  color: #ffffff;
+  background-color: #000000;
+  border-color: #A4A4A4;
+  border-width: 3px;
+  border-style: solid;
+  padding: 5px;
+  margin-left: 170px; 
+}
+.pay{
+ text-align:center; 
+ font-size: 80px;
+}
+.confirmation{
+  width: 50%;
+  height: 1000px;
+  float: left;
+  padding-left: 150px;
+  font-size: 20px; 
+}
+
+.breturn{
+  width: 150%;
+  height: 150px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+  size: 1000px;
+  padding: 1px 10px 1px 10px;
+  color: #ffffff;
+  background-color: #000000;
+  border-color: #A4A4A4;
+  border-width: 3px;
+  border-style: solid;
+  margin-left: 250px;

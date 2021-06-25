@@ -8,79 +8,95 @@
 </head>
 
 <body>
-  <div id="Bienvenida" hidden> 
-  <header>
-    <!-- logo Bienvenida-->
-    <div class="Enter">
-      <h1>&ltLabTech&gt</h1>
-      <h2>¡Tu solución tecnólogica a un click!</h2>
-      <h3 class="subtitle">Productos</h3>
-    </div>
-  </header>
-  <main>
-    <div class="product">
-      <img src="Imagenes/Audifonos.jpg" width="186" height="350" />
-      <h2>Audífonos</h2>
-      <div class="feature">
-        <p class=>&bull; Over ear</p>
+  <div id="Bienvenida">
+    <header>
+      <!-- logo Bienvenida-->
+      <div class="Enter">
+        <h1>&ltLabTech&gt</h1>
+        <h2>¡Tu solución tecnólogica a un click!</h2>
+        <h3 class="subtitle">Productos</h3>
       </div>
-      <div class="feature2">
-        <p>&bull; Alámbrico</p>
+    </header>
+    <main>
+      <div class="product">
+        <img src="Imagenes/Audifonos.jpg" width="186" height="350" />
+        <h2>Audífonos</h2>
+        <div class="feature">
+          <p class=>&bull; Over ear</p>
+        </div>
+        <div class="feature2">
+          <p>&bull; Alámbrico</p>
+        </div>
+        <div class="feature">
+          <p>&bull; Incluye micrófono</p>
+        </div>
+        <p class="price">$60.000</p>
+        <hr class="line">
+        <button type="button" class="btn">Comprar</button>
       </div>
-      <div class="feature">
-        <p>&bull; Incluye micrófono</p>
+      <div class="product">
+        <img src="Imagenes/Camara pc.jpg" width="186" height="350" />
+        <h2>Cámara Web PC</h2>
+        <div class="feature">
+          <p class=> &bull; Imagen nítida</p>
+        </div>
+        <div class="feature2">
+          <p> &bull; Eliminación de ruidos</p>
+        </div>
+        <div class="feature">
+          <p> &bull; Conectividad USB 2.0</p>
+        </div>
+        <p class="price"> $90.000</p>
+        <hr class="line">
+        <button type="button" class="btn">Comprar</button>
       </div>
-      <p class="price">$60.000</p>
-      <hr class="line">
-      <button type="button" class="btn">Comprar</button>
-    </div>
-    <div class="product">
-      <img src="Imagenes/Camara pc.jpg" width="186" height="350" />
-      <h2>Cámara Web PC</h2>
-      <div class="feature">
-        <p class=> &bull; Imagen nítida</p>
-      </div>
-      <div class="feature2">
-        <p> &bull; Eliminación de ruidos</p>
-      </div>
-      <div class="feature">
-        <p> &bull; Conectividad USB 2.0</p>
-      </div>
-      <p class="price"> $90.000</p>
-      <hr class="line">
-      <button type="button" class="btn">Comprar</button>
-    </div>
   </div>
 
 
-
-
-    <div class="return">
-      <img src="Imagenes/Regresar.jpg" width="5%" height="70" />
-    </div>
-      <h3 class="subtitle2">Agregar Tarjeta</h3>
-      
-      <div class="card">
-        <div class="data">
-          <p>Forma de pago</p>
-          <select name="typeCard">
+  <div class="return">
+    <img src="Imagenes/Regresar.jpg" width="5%" height="70" />
+  </div>
+  <h3 class="subtitle2">Agregar Tarjeta</h3>
+  <div class="card">
+    <div class="data">
+      <p>Forma de pago</p>
+      <select class="dataBox" name="typeCard">
         <option selected value="0">Tipo de Tarjeta</option>
-            <option value="1">Mastercard</option>
-            <option value="2">Visa</option>
-          </select>
-          <hr>
-          <p>Nombre del Titular</p>
-          <input class="dataBox" type="text" placeholder="Ingrese Nombre Completo" name= "name">
-          <hr>
-          <p>Número de Tarjeta</p>
-          <input class="dataBox" type="text" placeholder="Ingrese numero de tarjeta" name="numerotarjeta">
-          <hr>
-        </div>
-      </div>
-      <div class="card">
-          <img src="Imagenes/Card.jpg" width="100%" height="450"/>
-      </div>   
-    
+        <option value="1">Mastercard</option>
+        <option value="2">Visa</option>
+      </select>
+      <hr>
+      <p>Nombre del Titular</p>
+      <input class="dataBox" type="text" placeholder="Ingrese Nombre Completo" name="name">
+      <hr>
+      <p>Número de Tarjeta</p>
+      <input class="dataBox" type="text" placeholder="Ingrese numero de tarjeta" name="numerotarjeta">
+      <hr>
+      <button type="button" class="bvalidate">Validar</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="Imagenes/Card.jpg" width="100%" height="450" />
+  </div>
+
+  <div class="return">
+    <img src="Imagenes/Regresar.jpg" width="5%" height="70" />
+  </div>
+  <h3 class="subtitle2">Reporte de pago</h3>
+  <h1 class="pay">¡Pago Exitoso!</h1>
+  <div class="card">
+    <div class="confirmation">
+      <p>Comprobante N°</p>
+      <hr>
+      <p>Origen de Pago</p>
+      <hr>
+    </div>
+   <div class="confirmation">
+      <button class="breturn" type="button">Seguir navegando en &ltLabTech&gt</button>
+
+   </div> 
+  </div>
+
   </main>
   <footer></footer>
   <script src="index.js" type="module"></script>
