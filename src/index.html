@@ -56,27 +56,30 @@
 
 
     <div class="return">
-      <img src="Imagenes/Regresar.jpg" width="5%" height="100" />
+      <img src="Imagenes/Regresar.jpg" width="5%" height="70" />
     </div>
       <h3 class="subtitle2">Agregar Tarjeta</h3>
       
       <div class="card">
         <div class="data">
           <p>Forma de pago</p>
+          <select name="typeCard">
+        <option selected value="0">Tipo de Tarjeta</option>
+            <option value="1">Mastercard</option>
+            <option value="2">Visa</option>
+          </select>
           <hr>
           <p>Nombre del Titular</p>
+          <input class="dataBox" type="text" placeholder="Ingrese Nombre Completo" name= "name">
           <hr>
           <p>Número de Tarjeta</p>
+          <input class="dataBox" type="text" placeholder="Ingrese numero de tarjeta" name="numerotarjeta">
           <hr>
         </div>
       </div>
       <div class="card">
-          <img src="Imagenes/Card.jpg"/>
-      </div>
-      
-
-
-
+          <img src="Imagenes/Card.jpg" width="100%" height="450"/>
+      </div>   
     
   </main>
   <footer></footer>
