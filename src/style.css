@@ -7,7 +7,7 @@
   font-weight: bold;
   font-style: italic;
   color: #ffffff;
-  height: 170px;
+  height: 250px;
   padding: 30px;
   border: 5px solid black;
   background: #000000;
@@ -21,7 +21,6 @@
   font-family: Helvetica;
   font-size: 15px;
   width: 50%;
-  height: 1000px;
   padding-top: 30px;
   float: left;
   text-align: center;
@@ -86,7 +85,6 @@
 }
 .card {
   width: 50%;
-  height: 1000px;
   float: left;
 }
 .data {
@@ -116,16 +114,24 @@
  text-align:center; 
  font-size: 80px;
 }
+
+
 .confirmation{
   width: 50%;
-  height: 1000px;
   float: left;
   padding-left: 150px;
+  font-size: 20px;
+  padding-right: 200px; 
+}
+
+.confirmation2{
+  width: 50%;
+  float: left;
   font-size: 20px; 
 }
 
 .breturn{
-  width: 150%;
+  width: 50%;
   height: 150px;
   text-decoration: none;
   font-weight: 600;
@@ -138,3 +144,4 @@
   border-width: 3px;
   border-style: solid;
   margin-left: 250px;
+}

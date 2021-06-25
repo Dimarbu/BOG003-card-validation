@@ -8,9 +8,9 @@
 </head>
 
 <body>
-  <div id="Bienvenida">
+  <div id="Bienvenida" >
     <header>
-      <!-- logo Bienvenida-->
+      <!-- Encabezado de la página-->
       <div class="Enter">
         <h1>&ltLabTech&gt</h1>
         <h2>¡Tu solución tecnólogica a un click!</h2>
@@ -18,6 +18,7 @@
       </div>
     </header>
     <main>
+      <!-- Cargue de productos-->
       <div class="product">
         <img src="Imagenes/Audifonos.jpg" width="186" height="350" />
         <h2>Audífonos</h2>
@@ -32,7 +33,7 @@
         </div>
         <p class="price">$60.000</p>
         <hr class="line">
-        <button type="button" class="btn">Comprar</button>
+        <button id="bttn" type="button" class="btn">Comprar</button>
       </div>
       <div class="product">
         <img src="Imagenes/Camara pc.jpg" width="186" height="350" />
@@ -48,11 +49,11 @@
         </div>
         <p class="price"> $90.000</p>
         <hr class="line">
-        <button type="button" class="btn">Comprar</button>
+        <button id="bttn2" type="button" class="btn">Comprar</button>
       </div>
   </div>
-
-
+  <!-- Vista de la segunda pantalla "Agregar tarjeta"-->
+  <div id="card" hidden>
   <div class="return">
     <img src="Imagenes/Regresar.jpg" width="5%" height="70" />
   </div>
@@ -78,25 +79,27 @@
   <div class="card">
     <img src="Imagenes/Card.jpg" width="100%" height="450" />
   </div>
-
+</div>
+  <!-- Vista de la tercer pantalla ""-->
+  <div id="payOk" hidden>
   <div class="return">
     <img src="Imagenes/Regresar.jpg" width="5%" height="70" />
   </div>
   <h3 class="subtitle2">Reporte de pago</h3>
   <h1 class="pay">¡Pago Exitoso!</h1>
-  <div class="card">
+  <div class="">
     <div class="confirmation">
       <p>Comprobante N°</p>
       <hr>
       <p>Origen de Pago</p>
       <hr>
     </div>
-   <div class="confirmation">
+    <div class="confirmation2">
       <button class="breturn" type="button">Seguir navegando en &ltLabTech&gt</button>
 
-   </div> 
+    </div>
   </div>
-
+ </div>
   </main>
   <footer></footer>
   <script src="index.js" type="module"></script>
