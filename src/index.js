@@ -9,18 +9,16 @@ import validator from './validator.js';
 
 //Funcion del boton comprar audifonos
     document.getElementById("bttn").addEventListener("click",()=>{
-        document.getElementById('Bienvenida').style.display = 'none';
-        document.getElementById('card').removeAttribute ('hidden');
-        document.getElementById('card').style.display = 'block';
+        validator.compras();
     });
 
 //Funcion del boton comprar cámara
     document.getElementById("bttn2").addEventListener("click",()=>{
-        document.getElementById("Bienvenida").style.display = "none";
-        document.getElementById("card").removeAttribute ("hidden");
-        document.getElementById("card").style.display = "block";
+        validator.compras();
     });
 
+
+    
 //Funcion del boton regresar segunda pantalla
     document.getElementById("behind").addEventListener("click",()=>{
         document.getElementById("card").style.display = "none";
