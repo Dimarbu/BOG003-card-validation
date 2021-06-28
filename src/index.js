@@ -17,26 +17,19 @@ import validator from './validator.js';
         validator.compras();
     });
 
-
-    
-//Funcion del boton regresar segunda pantalla
+//  Funcion del boton regresar segunda pantalla
     document.getElementById("behind").addEventListener("click",()=>{
-        document.getElementById("card").style.display = "none";
-        document.getElementById("Bienvenida").style.display = "block";
-    });
+        validator.behind();
+    });    
 
 //Funcion del boton validar pago
     document.getElementById("validateOk").addEventListener("click",()=>{
-       document.getElementById("card").style.display = "none";
-       document.getElementById("payOk").removeAttribute ("hidden");
-       document.getElementById("payOk").style.display = "block";
-    });
-
+       validator.validateOk();
+       
+    });   
 //Funcion del boton regresar tercera pantalla
-document.getElementById("behind2").addEventListener("click",()=>{
-    document.getElementById("payOk").style.display = "none";
-    document.getElementById("Bienvenida").style.display = "block";
-});
-
+    document.getElementById("payOk").addEventListener("click",()=>{
+       validator.behind2();
+    });
 
 console.log(validator);
