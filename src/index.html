@@ -39,7 +39,7 @@
         <img src="Imagenes/Camara pc.jpg" width="186" height="350" />
         <h2>Cámara Web PC</h2>
         <div class="feature">
-          <p class=> &bull; Imagen nítida</p>
+          <p> &bull; Imagen nítida</p>
         </div>
         <div class="feature2">
           <p> &bull; Eliminación de ruidos</p>
@@ -54,11 +54,13 @@
   </div>
   <!-- Vista de la segunda pantalla "Agregar tarjeta"-->
   <div id="card" hidden>
-  <div id="behind"class="return">
+        <!-- Botón regresar a la primer página-->
+  <div id="behind"class="return"> 
     <img src="Imagenes/Regresar.jpg" width="5%" height="70" />
   </div>
   <h3 class="subtitle2">Agregar Tarjeta</h3>
   <div class="card">
+        <!-- Caja donde se solicitan los datos del nombre y tarjeta del usuario"-->
     <div class="data">
       <p>Forma de pago</p>
       <select class="dataBox" name="typeCard">
@@ -71,7 +73,7 @@
       <input class="dataBox" type="text" placeholder="Ingrese Nombre Completo" name="name">
       <hr>
       <p>Número de Tarjeta</p>
-      <input class="dataBox" type="text" placeholder="Ingrese numero de tarjeta" name="numerotarjeta">
+      <input id="numCard" class="dataBox" type="text" placeholder="Ingrese numero de tarjeta" name="numerotarjeta">
       <hr>
       <button id="validateOk" type="button" class="bvalidate">Validar</button>
     </div>
