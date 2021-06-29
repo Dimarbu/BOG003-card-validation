@@ -31,7 +31,7 @@ document.getElementById("behind").addEventListener("click", () => {
 document.getElementById("validateOk").addEventListener("click", () => {
     let numCard = document.getElementById("numCard").value;
     //console.log("numCard="+numCard);
-    if (validator.validator.isvalid(numCard)) {
+    if (validator.validator.isValid(numCard)) {
         document.getElementById('card').style.display = 'none';
         document.getElementById('payOk').removeAttribute('hidden');
         document.getElementById('payOk').style.display = 'block';
