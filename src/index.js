@@ -41,7 +41,7 @@ document.getElementById("validateOk").addEventListener("click", () => {
 });
 
 //Funcion del boton regresar tercera pantalla
-document.getElementById("payOk").addEventListener("click", () => {
+document.getElementById("behind2").addEventListener("click", () => {
     document.getElementById('payOk').style.display = 'none';
     document.getElementById('Bienvenida').style.display = 'block';
 });
