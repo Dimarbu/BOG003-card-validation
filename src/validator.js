@@ -1,14 +1,29 @@
 const validator = {
-  //funcion isvalid reciba un argumento en string y que retorne true o false segun algoritmo de luhn
-isValid: (creditCardNumber)=> {
-  let sumaPar = 0;
-  let sumaImpar = 0;
-  for (let i=0; i<creditCardNumber; i++){
-   if (i% 2 === 0 )
-  }
-
-} 
+  // ...
+  isvalid: (creditCardNumber) => {
+    let sum = 0;
+    let multiply = 0;
+    for (let i = 0;i < creditCardNumber.lenght;i++){
+      if (i % 2 === 0) {
+        //....
+        multiply = (creditCardNumber[i] - '0');
+      }
+      else {
+        //Multiplicar if *2
+        multiply = (creditCardNumber[i] - '0') * 2;
+        if (multiply >= 10) {
+          multiply = (multiply - 10) + 1;
+        }
+      }
+      sum += multiply;
+    }
+    if (sum % 10 === 0) {
+      return true;
+    }
+    else {
+      return false;
+    }
+  },
 
 };
-
-export default {validator};
+export default { validator, };
