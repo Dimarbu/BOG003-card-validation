@@ -16,7 +16,6 @@ const validator = {
         sum = numImpar + sum;
       }
       //console.log("numero es"+ sum);
-      //5306917321421799
     }
     if (sum % 10 == 0) {
       return true;

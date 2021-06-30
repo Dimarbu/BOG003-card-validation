@@ -38,6 +38,8 @@ document.getElementById("validateOk").addEventListener("click", () => {
     } else {
         alert("Tarjeta invalida");
     }
+    let getValue = document.getElementById("numCard").value;
+    document.getElementById("dataCard").innerHTML = getValue;
 });
 
 //Funcion del boton regresar tercera pantalla
