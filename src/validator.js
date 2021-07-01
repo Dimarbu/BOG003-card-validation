@@ -1,5 +1,5 @@
 const validator = {
-  // ...
+  // Sera la encargada de verificar que el numero de tarjeta sea valido segun el algoritmo de luhn
   isValid: (creditCardNumber) => {
     let numPar = 0;
     let numImpar = 0;
@@ -11,19 +11,17 @@ const validator = {
           numPar = (numPar - 10) + 1;
         }
         sum = numPar + sum;
-      } else {
+      } else
         numImpar = parseInt(creditCardNumber[i]);
-        sum = numImpar + sum;
-      }
-      //console.log("numero es"+ sum);
+      sum = numImpar + sum;
     }
-    if (sum % 10 == 0) {
-      return true;
-    }
-    else {
-      return false;
-    }
-    console.log();
+    //console.log("numero es"+ sum);
+  if (sum % 10 == 0) {
+    return true;
+  } else {
+    return false;
   }
-}
-export default { validator, };
+},
+  //console.log();
+};
+export default validator;
