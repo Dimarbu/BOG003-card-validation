@@ -33,13 +33,14 @@ document.getElementById("behind").addEventListener("click", () => {
 //Funcion del boton validar pago en la segunda pantalla
 document.getElementById("validateOk").addEventListener("click", () => {
     let creditCardNumber = document.getElementById("numCard").value;
-    const validCard = validator.validator.isValid(creditCardNumber);
-    if (validCard){
+   //const validCard = validator.validator.isValid(creditCardNumber);
+    if (validator.isValid(creditCardNumber)) {
         document.getElementById('card').style.display = 'none';
         document.getElementById('payOk').removeAttribute('hidden');
         document.getElementById('payOk').style.display = 'block';
     } else {
         alert("Tarjeta invalida");
+   
     }
     let getValue = document.getElementById("numCard").value;
     document.getElementById("dataCard").innerHTML = getValue;
