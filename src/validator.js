@@ -30,7 +30,7 @@ const validator = {
    let selectNumber = creditCardNumber.length;
    let maskingNumber = "";
    for(let i = 0; i<selectNumber-4; i++) {
-  maskingNumber += "*";
+   maskingNumber += "#";
     }
     return maskingNumber + creditCardNumber.substring(selectNumber-4,selectNumber) 
 

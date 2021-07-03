@@ -33,6 +33,7 @@ document.getElementById("behind").addEventListener("click", () => {
 //Funcion del boton validar pago en la segunda pantalla
 document.getElementById("validateOk").addEventListener("click", () => {
   let creditCardNumber = document.getElementById("numCard").value;
+  document.getElementById("voucher").innerHTML = Math.floor(Math.random() * 100);
   //const validCard = validator.validator.isValid(creditCardNumber);
   const validacionTarjeta = tarjetaValida(creditCardNumber);
   if (validacionTarjeta) {
