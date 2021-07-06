@@ -2,8 +2,8 @@
 
 ## Índice
 
-* [1. Preámbulo](#1-preámbulo)
-* [2. Resumen del proyecto](#2-resumen-del-proyecto)
+* [1. Resumen del proyecto](#1-resumen-del.proyecto)
+* [2. Prototipo en papel](#2-prototipo-en-papel)
 * [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
 * [4. Consideraciones generales](#4-consideraciones-generales)
 * [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
@@ -11,32 +11,18 @@
 
 ***
 
-## 1. Preámbulo
+## 1. Resumen del proyecto
 
-El [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn),
-también llamado algoritmo de módulo 10, es un método de suma de verificación,
-se utiliza para validar números de identificación; tales como el IMEI de los
-celulares, tarjetas de crédito, etc.
+<LabTech> Nace de nuestra experiencia como compradoras de accesorios tecnológicos en tienda,
+ya que en nuestra realidad actual vemos la necesidad mejorar la experiencia del usuario a un clic sin 
+necesidad de salir de casa. Es una pagina sencilla de manejar, simplemente ingresas a  
+ (https://github.com/Dimarbu/BOG003-card-validation) elegir el producto en donde encontraras 
+ caracteristicas, valor e imagen segun el producto, una vez lo elijas al dar clic en el botón comprar 
+podras validar tu tarjeta de credito para realizar la compra.
 
-Este algoritmo es simple. Obtenemos la reversa del número a verificar (que
-solamente contiene dígitos [0-9]); a todos los números que ocupan una posición
-par se les debe multiplicar por dos, si este número es mayor o igual a 10,
-debemos sumar los dígitos del resultado; el número a verificar será válido si
-la suma de sus dígitos finales es un múltiplo de 10.
+## 2. Prototipo en papel
 
-![gráfica de algoritmo de Luhn](https://www.101computing.net/wp/wp-content/uploads/Luhn-Algorithm.png)
-
-## 2. Resumen del proyecto
-
-En este proyecto tendrás que construir una aplicación web que le permita a un
-usuario validar el número de una tarjeta de crédito. Además, tendrás que
-implementar funcionalidad para ocultar todos los dígitos de una tarjeta menos
-los últimos cuatro.
-
-La temática es libre. Tú debes pensar en qué situaciones de la vida real se
-necesitaría validar una tarjeta de crédito y pensar en cómo debe ser esa
-experiencia de uso (qué pantallas, explicaciones, mensajes, colores, ¿marca?)
-etc.
+En este espacio encontraremos nuestro prototipo en papel <img.Prototipo.jpg> 
 
 ## 3. Objetivos de aprendizaje
 
