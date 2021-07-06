@@ -62,23 +62,26 @@
     <h3 class="subtitle2">Agregar Tarjeta</h3>
     <div class="card">
       <!-- Caja donde se solicitan los datos del nombre y tarjeta del usuario"-->
-      <div class="data">
-        <form>
+      <div class="data"> 
+        <form>    
+      <!-- Formulario de datos seleccionar tipo de tarjeta-->     
         <label>Forma de pago</label>
-        <select class="dataBox" name="typeCard" required>
+        <select id="typeCard" class="dataBox" name="typeCard" >
           <option selected value="0">Tipo de Tarjeta</option>
           <option value="1">Mastercard</option>
           <option value="2">Visa</option>
         </select>
         <hr>
+        <!-- caja de datos para ingresar nombre del titular--> 
         <label>Nombre del Titular</label>
-        <input class="dataBox" type="text" placeholder="Ingrese Nombre Completo" name="name" maxlength="40" 
+        <input id="name" class="dataBox" type="text" placeholder="Ingrese Nombre Completo" name="name" maxlength="40" 
           autocomplete="off" onkeypress="return (event.charCode >= 65 && event.charCode <= 90) ||
-          (event.charCode >= 97 && event.charCode <= 122) || event.charCode == 32" required>
+          (event.charCode >= 97 && event.charCode <= 122) || event.charCode == 32" >
         <hr>
+        <!-- caja de datos para ingresar numero de tarjeta--> 
         <label>Número de Tarjeta</label>
-        <input id="numCard" aria-required="true" class="dataBox" type="text" placeholder="Ingrese número de tarjeta" name="numerotarjeta"
-          maxlength="19" required autocomplete="off" onkeypress="return (event.charCode >= 48 && event.charCode <= 57)" required>
+        <input id="numCard" class="dataBox" type="text" placeholder="Ingrese número de tarjeta" name="numerotarjeta"
+          maxlength="19" autocomplete="off" onkeypress="return (event.charCode >= 48 && event.charCode <= 57)">
         <hr>
         <button id="validateOk" type="button" class="bvalidate">Validar</button>
       </form>
