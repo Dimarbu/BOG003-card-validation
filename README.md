@@ -22,7 +22,7 @@ podras validar tu tarjeta de credito para realizar la compra.
 
 ## 2. Prototipo en papel
 
-En este espacio encontraremos nuestro prototipo en papel <img.Prototipo.jpg> 
+En este espacio encontraremos nuestro prototipo en papel <img.src="https://github.com/Dimarbu/BOG003-card-validation/blob/master/src/Imagenes/Prototipo.jpg"/> 
 
 ## 3. Objetivos de aprendizaje
 
