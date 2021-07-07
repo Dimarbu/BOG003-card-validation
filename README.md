@@ -22,7 +22,7 @@ podras validar tu tarjeta de crédito para realizar la compra.
 
 ## 2. Prototipo en papel
 
-En este espacio encontraremos nuestro prototipo en papel <img src= "https://github.com/Dimarbu/BOG003-card-validation/blob/master/src/Imagenes/Prototipo.jpg" width="500" height="200"/>
+En este espacio encontraremos nuestro prototipo en papel <img src= "https://github.com/Dimarbu/BOG003-card-validation/blob/master/src/Imagenes/Prototipo.jpg" width="500" height="300"/>
 
 ## 3. Feedback parte de compañeras
 
@@ -32,18 +32,18 @@ simplicidad de la página.
 
 ## 4. Imagen Prototipo Final 
 
-Pantalla 1 
+##### Pantalla 1 
 
-<img src="https://github.com/Dimarbu/BOG003-card-validation/blob/master/src/Imagenes/figma-Pantalla1.jpg" width="500" height="200"/>
-
-***
-Pantalla 2 
-
-<img src="https://github.com/Dimarbu/BOG003-card-validation/blob/master/src/Imagenes/figma-Pantalla2.jpg" width="500" height="200"/>
+<img src="https://github.com/Dimarbu/BOG003-card-validation/blob/master/src/Imagenes/figma-Pantalla1.jpg" width="500" height="300"/>
 
 ***
+##### Pantalla 2 
 
-Pantalla 3 
+<img src="https://github.com/Dimarbu/BOG003-card-validation/blob/master/src/Imagenes/figma-Pantalla2.jpg" width="500" height="300"/>
+
+***
+
+##### Pantalla 3 
 
 <img src="https://github.com/Dimarbu/BOG003-card-validation/blob/master/src/Imagenes/figma-Pantalla3.jpg" width="500" height="200"/>
 
