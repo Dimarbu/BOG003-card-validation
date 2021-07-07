@@ -33,16 +33,18 @@ simplicidad de la página.
 ## 4. Imagen Prototipo Final 
 
 Pantalla 1 
+
 <img src="https://github.com/Dimarbu/BOG003-card-validation/blob/master/src/Imagenes/figma-Pantalla1.jpg" width="500" height="200"/>
 
 ***
-
 Pantalla 2 
+
 <img src="https://github.com/Dimarbu/BOG003-card-validation/blob/master/src/Imagenes/figma-Pantalla2.jpg" width="500" height="200"/>
 
 ***
 
 Pantalla 3 
+
 <img src="https://github.com/Dimarbu/BOG003-card-validation/blob/master/src/Imagenes/figma-Pantalla3.jpg" width="500" height="200"/>
 
 ## 5. Feedback Office hours
